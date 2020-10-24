@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Finish</title>
+    <link rel="stylesheet" href="start.style.css">
+    <link rel="stylesheet" href="finish.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+        <div id="finish" class="flex-center  flex-column"></div>
+        <form class="finish-form-center">
+            <h1 id="finish-text">Enter your name to Save your score</h1>
+            <input type="text" name="name" id="username" placeholder="Enter your name here">
+        </form>
+        <a id="finalScore" class="flex-center flex-column">0</a>
+        <button class="btn " id="saveScoreBtn" type="submit" onclick="saveHighScore(event)" disabled>Save</button>
+        <a href="quiz.html" id="playAgain" class="btn flex-center flex-column">Play Again</a>
+        <a href="start.html" id="homeBtn" class="btn flex-center flex-column">Home</a>
+    </div>
+    <script src="finish.js"></script>
+</body>
+
+</html>

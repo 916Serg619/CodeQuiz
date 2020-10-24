@@ -7,17 +7,20 @@ body {
     margin-bottom: 0.8rem;
     width: 100%;
     border-radius: 4px;
-    background: rgb(18, 93, 255);
-    font-size: 10rem;
+    background: none;
+    font-size: 8rem;
     min-width: 80rem;
-    color: black;
-    background: linear-gradient(blue);
+    color: white;
+    background: linear-gradient(none);
 }
+
+
+/*Choice CSS*/
 
 .choice-container:hover {
     cursor: pointer;
     transform: scale(1.03);
-    color: rgb(0, 57, 245);
+    color: rgb(25, 34, 160);
 }
 
 .choice-prefix {
@@ -28,6 +31,9 @@ body {
     padding: 2rem;
     width: 100%;
 }
+
+
+/* correct and incorrect animations*/
 
 .correct {
     background: linear-gradient(32deg, rgba(11, 223, 36) 0%, rgb(41, 232, 111) 100%);
@@ -73,4 +79,8 @@ body {
     .choice-container {
         min-width: 40rem;
     }
+}
+
+#timer {
+    font-size: 8rem;
 }

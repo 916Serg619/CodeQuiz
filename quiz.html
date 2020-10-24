@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quiz Start</title>
+    <title>Start Quiz</title>
     <link rel="stylesheet" href="start.style.css">
     <link rel="stylesheet" href="quiz.css">
 
@@ -12,6 +12,7 @@
 </head>
 
 <body>
+    <!--Container including current progress bar, timer, and score-->
     <div class="container">
         <div id="game" class="justify-center flex-column">
             <div id="display">
@@ -23,6 +24,9 @@
                         <div id="progressBarFull"></div>
                     </div>
                 </div>
+                <div class="conainter justify-center flex-colummn" id="timer">
+                    <p>00:00</p>
+                </div>
                 <div class="display-item">
                     <p class="display-prefix">
                         Score
@@ -32,6 +36,7 @@
                     </h1>
                 </div>
             </div>
+            <!--Container including current questiond and choices-->
             <h1 id="question">What is the Answer to this Question</h1>
             <div class="choice-container">
                 <p class="choice-prefix">A</p>
